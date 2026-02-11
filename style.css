@@ -33,8 +33,12 @@ img {
   display: block;
 }
 
+/*this makes it so when the screen is changing sizes it responds with the correct img for screen size*/
 @media (min-width: 960px) {
   .header {
     grid-template-columns: repeat(2, 1fr);
+  }
+    picture img {
+    width: 100%;
   }
 }
